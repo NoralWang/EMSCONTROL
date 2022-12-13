@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/layout_control"
+    tools:context=".BFControl">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/ConP_layout"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="6"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_ConPGetMsg"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/btn_color_select"
+            android:text="Connect" />
+        <Button
+            android:id="@+id/btn_ConPcontrol"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/btn_color_select"
+            android:text="Control" />
+        <Button
+            android:id="@+id/btn_ConPGetWifi"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/btn_color_select"
+            android:text="GetWifi" />
+    </LinearLayout>
+
+
+</LinearLayout>

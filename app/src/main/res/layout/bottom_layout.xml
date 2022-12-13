@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/white100"
+
+    >
+
+    <Button
+        android:id="@+id/btnHomePageControl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="@color/white100"
+        android:hint="Control"
+        android:drawableTop="@drawable/ic_control"
+        android:drawablePadding="10dp"
+        android:textColor="@color/purple_200"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnHomePageMain"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Main"
+        android:backgroundTint="@color/white100"
+        android:drawableTop="@drawable/ic_mainpage"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:padding="10dp"/>
+    <Button
+        android:id="@+id/btnHomePageSetting"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Setting"
+        android:backgroundTint="@color/white100"
+        android:drawableTop="@drawable/ic_mypage"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:padding="10dp"/>
+
+</LinearLayout>
