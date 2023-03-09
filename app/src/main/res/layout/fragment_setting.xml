@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/white100"
-    tools:context=".BFSetting">
+    tools:context="com.example.fragment.BFSetting">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -15,12 +15,13 @@
     android:layout_height="wrap_content"
     android:background="@color/white"
     android:orientation="horizontal">
+
     <ImageView
+        android:layout_width="149dp"
+        android:layout_height="151dp"
         android:layout_margin="20dp"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        tools:src="@tools:sample/avatars"
-    />
+        android:background="@drawable/eople"
+        tools:src="@tools:sample/avatars" />
 
     <LinearLayout
         android:layout_width="225dp"
@@ -30,33 +31,60 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:text="User Role:"
+            android:layout_margin="4dp"
+            ></TextView>
+        <TextView
+            android:id="@+id/txtuserrole"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:text="Admin"
+            android:textSize="20dp"
+            android:textStyle="bold"
             android:layout_margin="4dp"
             ></TextView>
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:layout_margin="4dp"
             android:text="UserName:"></TextView>
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/txtusername"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:text="Jia"
+            android:textStyle="bold"
+            android:textSize="20dp"
             android:layout_margin="4dp"
-            android:text="TextView" />
+            ></TextView>
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView3"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:layout_margin="4dp"
-            android:text="TextView" />
+            android:text="SurName" />
+        <TextView
+            android:id="@+id/txtuser_surname"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:text="Wang"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_margin="4dp"
+            ></TextView>
+
 
     </LinearLayout>
 </LinearLayout>
@@ -68,18 +96,19 @@
         android:background="@color/white100"
         android:orientation="vertical">
 
+
         <Button
-            android:id="@+id/btn_Logout"
+            android:id="@+id/btn_history"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:backgroundTint="@color/white"
-            android:drawableLeft="@drawable/ic_baseline_logout_24"
+            android:drawableLeft="@drawable/ic_baseline_history_24"
             android:gravity="left"
             android:padding="10dp"
-            android:text="Log out"
+            android:text="History"
             android:textColor="@color/black"
-        />
+            />
 
         <Button
             android:id="@+id/btn_Setting"
@@ -91,6 +120,18 @@
             android:gravity="left"
             android:padding="10dp"
             android:text="Setting"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_Logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_logout_24"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="Log out"
             android:textColor="@color/black"
             />
 

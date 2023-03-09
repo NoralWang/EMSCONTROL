@@ -4,13 +4,25 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.184" />
+        <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/drawable/border.xml" value="0.195" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/drawable/btn_select.xml" value="0.184" />
+        <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/drawable/geryborder.xml" value="0.164" />
+        <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/drawable/ic_baseline_account_balance_wallet_24.xml" value="0.179" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.184" />
+        <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.179" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/drawable/ic_baseline_cloud_24.xml" value="0.184" />
+        <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/drawable/ic_baseline_co2_24.xml" value="0.179" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/drawable/ic_baseline_contact_support_24.xml" value="0.184" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/drawable/ic_baseline_directions_car_filled_24.xml" value="0.184" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/drawable/ic_baseline_error_24.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/drawable/ic_baseline_fmd_bad_24.xml" value="0.1725" />
+        <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/drawable/ic_baseline_gpp_bad_24.xml" value="0.1725" />
+        <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/drawable/ic_baseline_history_24.xml" value="0.1725" />
+        <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/drawable/ic_baseline_invert_colors_24.xml" value="0.1725" />
+        <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/drawable/ic_baseline_masks_24.xml" value="0.1725" />
+        <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/drawable/ic_baseline_mood_bad_24.xml" value="0.1725" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.184" />
+        <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/drawable/ic_baseline_wb_sunny_24.xml" value="0.1725" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/drawable/ic_click_false.xml" value="0.184" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/drawable/ic_click_true.xml" value="0.184" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/drawable/ic_control.xml" value="0.181" />
@@ -29,19 +41,21 @@
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/activity_register_account.xml" value="0.23958333333333334" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/activity_talkroom.xml" value="0.1782178217821782" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/bottom_layout.xml" value="0.20520833333333333" />
+        <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/fragment__report.xml" value="0.21510416666666668" />
+        <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/fragment_alarm.xml" value="0.22" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/fragment_contoconnect.xml" value="0.2557291666666667" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/fragment_contogetmsg.xml" value="0.2703125" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/fragment_contogetwifi.xml" value="0.2557291666666667" />
-        <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/fragment_control.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/fragment_control.xml" value="0.22" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/fragment_control_to.xml" value="0.2859375" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/fragment_frgcontrol.xml" value="0.2859375" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/fragment_frgmain.xml" value="0.19270833333333334" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/fragment_frgmypage.xml" value="0.2859375" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/fragment_main.xml" value="0.23802083333333332" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/fragment_main_page.xml" value="0.22" />
-        <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/fragment_mainpage.xml" value="0.2520833333333333" />
+        <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/fragment_mainpage.xml" value="0.19166666666666668" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/fragment_my_page.xml" value="0.23802083333333332" />
-        <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/fragment_setting.xml" value="0.2520833333333333" />
+        <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/fragment_setting.xml" value="0.22" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/frgmain.xml" value="0.19166666666666668" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/mainpage.xml" value="0.19166666666666668" />
         <entry key="..\:/AndroidStudioProjects/EMSControl/app/src/main/res/layout/sectoolbar.xml" value="0.19270833333333334" />

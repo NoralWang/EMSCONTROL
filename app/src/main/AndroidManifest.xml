@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.emscontrol" >
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -16,20 +16,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EMSControl"
         tools:targetApi="31" >
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+        </com.github.mikephil.charting.charts.LineChart>
+
+<!--        <activity-->
+<!--            android:name="com.example.emsserver.SockeClientActivity"-->
+<!--            android:exported="false" />-->
         <activity
             android:name=".RegisterAccountAC"
             android:exported="false" />
         <activity
-            android:name=".SockeClientActivity"
-            android:exported="false" />
-        <activity
-            android:name=".TalkroomActivity"
+            android:name="com.example.emsserver.TalkroomActivity"
             android:exported="false" />
         <activity
             android:name=".HomePageAC"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="MainActivity"
             android:exported="true"
             tools:ignore="Instantiatable" >
             <intent-filter>
@@ -38,6 +44,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
     </application>
 
 </manifest>

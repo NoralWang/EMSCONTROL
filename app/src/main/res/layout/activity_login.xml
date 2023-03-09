@@ -28,7 +28,7 @@
 
 
     <EditText
-        android:id="@+id/et_name"
+        android:id="@+id/et_userid"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:drawableLeft="@drawable/ic_baseline_person_24"
@@ -37,6 +37,7 @@
         android:padding="10dp"
         android:layout_gravity="center"
         android:autofillHints="" />
+
 
     <EditText
         android:id="@+id/et_pass"

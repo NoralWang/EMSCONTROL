@@ -32,6 +32,27 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="10dp"
                 android:paddingLeft="15dp"
+                android:text="Account:"
+                android:textSize="18sp" />
+            <EditText
+                android:id="@+id/et_RegAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="left"
+                android:minWidth="250dp"
+                android:autofillHints=""
+                android:drawableLeft="@drawable/ic_baseline_account_24"
+                android:drawablePadding="5dp"
+                android:hint="Account"
+                android:padding="10dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp"
                 android:text="UserName:"
                 android:textSize="18sp" />
             <EditText
@@ -47,6 +68,26 @@
                 android:padding="10dp" />
         </TableRow>
 
+        <TableRow>
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp"
+                android:text="SurName:"
+                android:textSize="18sp" />
+            <EditText
+                android:id="@+id/et_RegSurname"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="left"
+                android:minWidth="250dp"
+                android:autofillHints=""
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:drawablePadding="5dp"
+                android:hint="SurName"
+                android:padding="10dp" />
+        </TableRow>
 
         <TableRow>
             <TextView

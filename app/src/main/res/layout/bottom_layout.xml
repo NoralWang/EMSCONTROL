@@ -19,6 +19,7 @@
         android:textColor="@color/purple_200"
         android:padding="10dp" />
 
+
     <Button
         android:id="@+id/btnHomePageMain"
         android:layout_width="0dp"
@@ -30,6 +31,20 @@
         android:drawablePadding="10dp"
         android:gravity="center"
         android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btnHomePageAlarmID"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Alarm"
+        android:backgroundTint="@color/white100"
+        android:drawableTop="@drawable/ic_baseline_alarm_on_24"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:padding="10dp"/>
+
+
     <Button
         android:id="@+id/btnHomePageSetting"
         android:layout_width="0dp"

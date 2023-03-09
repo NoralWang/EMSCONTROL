@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerclass">
+        <item>Temperature</item>
+        <item>Humidity</item>
+        <item>CO2</item>
+        <item>CH2O</item>
+        <item>TVOC</item>
+        <item>PM2.5</item>
+        <item>PM10</item>
+    </string-array>
+
+    <string-array name="alarmclass">
+        <item>ALARM_Temp</item>
+        <item>ALARM_Hum</item>
+        <item>ALARM_CO2</item>
+        <item>ALARM_CH2O</item>
+        <item>ALARM_TVOC</item>
+        <item>ALARM_PM2.5</item>
+        <item>ALARM_PM10</item>
+    </string-array>
+
+    <string-array name="alarmaction">
+        <item>Shock</item>
+        <item>Ring</item>
+
+    </string-array>
+</resources>

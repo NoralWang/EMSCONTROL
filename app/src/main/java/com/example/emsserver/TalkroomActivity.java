@@ -1,4 +1,4 @@
-package com.example.emscontrol;
+package com.example.emsserver;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,6 +11,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.emscontrol.R;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -21,7 +23,7 @@ import java.net.Socket;
 
 public class TalkroomActivity extends AppCompatActivity implements Runnable {
 
-    private TextView txtshow;
+
     private EditText editsend;
     private Button btnsendd;
     private static final String HOST = "192.168.0.102";
@@ -30,6 +32,7 @@ public class TalkroomActivity extends AppCompatActivity implements Runnable {
     private BufferedReader in = null;
     private PrintWriter out = null;
     private String content = "";
+    private TextView txtshow;
     private StringBuilder sb = null;
 
     //定义一个handler对象,用来刷新界面
